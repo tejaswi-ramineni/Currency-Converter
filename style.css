@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    border:none;
+    outline:none;
+}
+body{
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+/*: Translates the element horizontally by -50% of its own width and vertically by -50% of its own height. This effectively centers the element both horizontally and vertically within its containing block.*/
+/* .wrapper{
+    max-width:25em;
+    width:90%;
+    position: absolute;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    padding:2em;
+    left:50%;
+    top:50%; 
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* border-radius: 0.8em;
+}  */
+.wrapper {
+    top:50%;
+    min-height: 50vh;
+    min-width: 30vw;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2.5rem;
+}
+.app-details{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+.app-icon{
+    width:9.5em;
+}
+.app-title{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+label{
+    display: flex;
+    font-weight: 600;
+}
+#amount{
+    font-weight: 200;
+    font-size: 1.2em;
+    display:block;
+    width:100%;
+    border-bottom: 2px solid black;
+    color:plum;
+    margin-bottom: 2em;
+    padding:0.5em;
+}
+input#amount:focus{
+    color:plum;
+    border-color: plum;
+}
+.dropdowns{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap: 1em;
+}
+select{
+    width:100%;
+    padding: 0.6em;
+    font-size: 1em;
+    background-color: plum;
+    font-weight: 600;
+}
+button{
+    font-size: 1em;
+    background-color: plum;
+    padding:1em 0;
+    width:100%;
+    margin-top: 2em;
+    font-weight: 600;
+    cursor:pointer;
+}
+#result{
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 1em;
+    color:black;
+    background-color: rgb(241, 205, 241);
+    padding: 0.8em 0;
+}
